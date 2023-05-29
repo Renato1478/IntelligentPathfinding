@@ -1,6 +1,11 @@
-# Search Algorithms Implementation
+# Intelligent Pathfinding
 
 This repository showcases various search algorithms implemented in Python, with a specific focus on A-star algorithm, a powerful heuristic-based search algorithm. These algorithms are designed to efficiently explore problem spaces, find optimal solutions, and navigate complex environments.
+
+## Screenshots
+![Screenshot 1](/screenshots/screenshot_1.jpg)
+![Screenshot 2](/screenshots/screenshot_2.jpg)
+![Screenshot 3](/screenshots/screenshot_3.jpg)
 
 ## Algorithms Included
 
