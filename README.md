@@ -3,13 +3,16 @@
 This repository showcases various search algorithms implemented in Python, with a specific focus on A-star algorithm, a powerful heuristic-based search algorithm. These algorithms are designed to efficiently explore problem spaces, find optimal solutions, and navigate complex environments.
 
 ## Screenshots
-![Screenshot 1](/screenshots/screenshot_1.jpg)
-![Screenshot 2](/screenshots/screenshot_2.jpg)
-![Screenshot 3](/screenshots/screenshot_3.jpg)
+| ![Screenshot 1](/screenshots/screenshot_1.jpg) | ![Screenshot 2](/screenshots/screenshot_2.jpg) | ![Screenshot 3](/screenshots/screenshot_3.jpg) |
+|:---:|:---:|:---:|
+| BFS Progress Example | A* Result | DFS Result |
 
 ## Algorithms Included
 
-- A-star: A heuristic-based algorithm that intelligently searches through a graph or grid by evaluating the cost of reaching a goal from a given node. It combines the use of a heuristic function and a cost function to guide the search towards the most promising paths.
+- Breadth-First Search (BFS): Explores a graph or grid by expanding the nodes in a level-by-level fashion, ensuring that all nodes at a certain depth are visited before moving deeper. It uses a FIFO queue and guarantees the shortest path when all step costs are equal.
+- Depth-First Search (DFS): Explores a graph or grid by going as deep as possible along each branch before backtracking. It uses a LIFO stack and may not guarantee the shortest path.
+- Uniform Cost Search (UCS): Explores a graph or grid by prioritizing nodes with the lowest path cost. It uses a priority queue and guarantees the optimal path regardless of step costs.
+- A-star (A*): A heuristic-based algorithm that intelligently searches through a graph or grid by evaluating the cost of reaching a goal from a given node. It combines the use of a heuristic function and a cost function to guide the search towards the most promising paths.
 
 ## Features
 
