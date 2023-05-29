@@ -326,14 +326,14 @@ def calcular_zoom(nmr_linhas, nmr_colunas):
 def main():
     SEED = None  # coloque None para deixar aleatorio OU 42 para fixo
     random.seed(SEED)
-    N_LINHAS = 200
-    N_COLUNAS = 300
+    N_LINHAS = 20
+    N_COLUNAS = 30
     STEP_TIME_MILISECONDS = 20
     ZOOM = calcular_zoom(N_LINHAS, N_COLUNAS)
     INICIO = Celula(y=0, x=0, anterior=None)
     GOAL = Celula(y=N_LINHAS-1, x=N_COLUNAS-1, anterior=None)
 
-    HABILITAR_VIEW = 0 # 0 = SEM VIEW, 1 = COM VIEW
+    HABILITAR_VIEW = 1 # 0 = SEM VIEW, 1 = COM VIEW
 
     """
     O labirinto sera representado por uma matriz (lista de listas)
